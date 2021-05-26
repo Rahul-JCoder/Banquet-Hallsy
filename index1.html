@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+    Arek Convensions
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Cairo:200|Dancing+Script|Francois+One|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Cairo:200|Dancing+Script|Francois+One|Lobster|Pacifico|Source+Sans+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+        
+        
+        
+        
+ 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}   
+    </script>
+    </head>
+<body>
+ <section class="container-fluid main">
+     <section class="">
+         <header class="col-md-6 col-sm-6 col-12">
+         <h3><a href="index.html"><span style="color:orange;font-family: 'Abril Fatface', cursive;
+font-size: 27px;
+"><span style="font-size: 45px;">A</span>rek</span>&nbsp <span style="font-size: 27px; color: white;">Convensions</span></a></h3>
+         </header>
+         
+         
+         <header class="col-md-6 col-sm-6 col-12">
+         <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">About</a>
+  <a href="#contact">Services</a>
+  <a href="#about">Gallery</a>
+ <a href="#about">Contact Us</a>             
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+         </header>
+     </section>
+    </section>  
+
+
+<div class="w3-display-container mySlides">
+  <img src="images/sli1.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Trolltunga, Norway
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/sli2.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Northern Lights, Norway
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/sli3.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Beautiful Mountains
+  </div>
+</div>
+
+
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+    
+              <!--slider-->
+    <section class="container-fluid">
+    <div class="container">
+        
+        
+        <h1 style="text-align: center;">Events</h1>
+        
+        
+        <div class="col-sm-4 col-md-4 col-12">
+        <h2 style="text-align: center;">Marriage</h2>
+        <img src="images/wed.jpg" width="3500px" height="350px" class="img-responsive">
+        <p>Ashiana is a beautiful venue that is as enchanting and graceful as it is elegant and artistic. When it comes to Reception Halls in Hyderabad, it is conveniently located right in the heart of the city, it gives you a sense of serenity and calmness that can embellish your events to make them special in every way. Ashiana, being the best Wedding Halls in Hyderabad.</p>
+        </div>
+        
+        <div class="col-sm-4 col-md-4 col-12">
+        <h2 style="text-align: center;">Parties</h2>
+        <img src="images/par.jpg" width="3500px" height="350px" class="img-responsive">
+        <p>Having a birthday bash or a bachelorette party at your home means hardcore music and lots of people. The banquet hall can easily solve this problem for you. You get to enjoy your party with full music and entertainment that is not a viable option at your home.
+</p>
+        </div>
+        
+        
+        <div class="col-sm-4 col-md-4 col-12">
+        <h2 style="text-align: center;">Corparate Events</h2>
+        <img src="images/cor.jpg" width="3500px" height="350px" class="img-responsive">
+        <p>It's time to network without worries! We will make sure your next corporate conference is completely hassle free so your attention can be on the presentation. Whether it's a Projector, Screen ,WhiteBoard, Stationery or a Cordless Mic & Speaker, we're fully equipped so you can get straight down to business.</p>
+        </div>
+        
+        </div>
+    
+    
+    </section>
+    
+    
+    
+    
+    
+    
+    <section class="container-fluid cont3">
+    <section class="container">
+        <footer class="col-md-4 col-sm-4 col-12">
+        <div style="color: floralwhite;margin-right:-100px; ">   <h3>Get In Touch</h3> 
+            Arek Soft solutions <br>
+            Hapisiguda<br>
+            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;areksoftsolutons@gmail.com<br>
+            <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;040-9505544632<br>
+            
+<span style="color: chocolate;font-size: 18px;">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+</span>
+            </div>
+
+
+        </footer>
+        
+        <footer class="col-md-4 col-sm-4 col-12">
+            <div style="color: floralwhite;list-style: none;margin-top: 20px;">
+                
+                <h3>Know Us</h3>
+                <span class="one">
+            <li><i class="fa fa-angle-right" aria-hidden="true"></i>
+Home</li>
+         <li><i class="fa fa-angle-right" aria-hidden="true"></i>
+About</li>
+         <li><i class="fa fa-angle-right" aria-hidden="true"></i>
+Gallery</li>
+         <li><i class="fa fa-angle-right" aria-hidden="true"></i>
+Contact Us</li>
+                    </span>
+                </div>
+        </footer>
+        
+        <footer class="col-md-4 col-sm-4 col-12">
+            <div style="color: floralwhite;"> <h3>About Us</h3>
+            
+            
+            Award winning AREKSOFT is the only exclusive premium banqueting facility in twin cities located strategically at Tivoli Road, Necklace Road and Jubilee Hills offering finest cuisines, delicious food.</div>
+        </footer>
+        
+      
+    
+        </section>
+        
+        
+         <span style="color:saddlebrown; text-align:center;"> <h4>Copyright 2016 - Areksoft - All Rights Reserved</h4></span>
+            </section>
+         
+    </body>
+
+
+
+</html>
